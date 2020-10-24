@@ -1,0 +1,266 @@
+/*-- Body Reset --*/
+body {
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+    color: #616971;
+  }
+  
+  /*============= TOP BAR HEADER =============*/
+  .top-bar {
+    background: black;
+    height: 1.5rem;
+    padding: .1rem 0;
+  }
+
+  
+
+  .top-bar i {
+    color: white;
+  }
+
+  
+
+  /*============= NAVIGATION =============*/
+
+
+  
+  .navbar {
+    font-size: 0.65rem;
+    font-weight: 800;
+    letter-spacing: .1rem;
+    box-shadow: 0 .5rem .5rem rgba(0,0,0, .1);
+    z-index: 1;
+    max-height: 7rem!important;
+    padding: 0.4rem;
+  }
+  
+  .nav-item {
+     padding: 0.5rem;
+  }
+  
+  .nav-link {
+    color: black!important;
+  }
+  
+  .nav-link.active,
+  .nav-link:hover {
+    color: #4981b3!important;
+  }
+
+ 
+  .dropdown .dropdown-menu {
+    border-radius:0;
+   }
+  
+   .icon2{
+       padding: 0.5rem;
+       font-size: 1rem;
+       color: black!important;
+   }
+
+
+
+
+
+
+
+
+   
+
+
+
+   .search-box{
+    background: white;
+    position: absolute;
+    top: 55px;
+    right: 18%;
+    width: 350px;
+    height: 60px;
+    line-height: 60px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    border-top:4px solid black;
+    display: none;
+  }
+
+  .search-box:before{
+    content: "";
+    position: absolute;
+    top: -32px;
+    right: 13px;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-top: 14px solid transparent;
+    border-bottom: 14px solid black;
+  }
+
+
+  .search-box input[type="text"]{
+    width: 205px;
+    height: 30px;
+    padding: 2px 2px;
+    margin-left: 30px;
+    border: 1px solid black;
+    outline: none;
+  }
+
+  .search-box input[type="button"]{
+    width: 100px;
+    height: 50px;
+    padding: 2px 2px;
+    background: black;
+    color: #fff;
+    margin-left: -2px;
+    border: 1px solid black;
+    outline: none;
+    cursor: pointer;
+  }
+  
+
+
+  .img1{
+      width: 500%;
+      height: auto;
+  }
+  
+  
+  .img2_4 {
+      width: 205px;
+  }
+  .img2_4 img{  
+    height: 152px!important;
+}
+  
+
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 99.5%;
+    color: black;
+    border: 1px solid #ddd;
+    margin-bottom: 0px;
+    padding: 0px;
+    font-size: 12px;
+    border-bottom: 2px solid black;
+    border-left: 2px solid transparent;
+    border-right: 2px solid transparent;
+    border-top: 2px solid transparent;
+  }
+  
+  th, td {
+    text-align: left;
+    
+    padding: 0px;
+  }
+  
+  .button1 {
+    background-color: #000000;
+    
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0px 0px;
+    
+  }
+
+    .button1:hover {opacity: 0.6}
+
+    .table1{
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 92%;
+    color: black;
+    border: 1px solid #ddd;
+    margin-bottom: 0px;
+    padding: 0px;
+    font-size: 12px;
+    border-bottom: 2px solid black;
+    border-left: 2px solid transparent;
+    border-right: 2px solid transparent;
+    border-top: 2px solid transparent;
+    }
+
+    div.gallery1 {
+        margin: 5px;
+        border: 1px solid #ccc;
+        float: left;
+        width: 350px;
+      }
+      
+      div.gallery1:hover {
+        border: 1px solid #777;
+      }
+      
+      div.gallery1 img {
+        width: 100%;
+        height: auto;
+      }
+      
+      div.desc {
+        padding: 15px;
+        text-align: center;
+      }
+
+      div.gallery2 {
+        margin: 5px;
+        border: 1px solid #ccc;
+        float: left;
+        width: 205px;
+      }
+      
+      div.gallery2:hover {
+        border: 1px solid #777;
+      }
+      
+      div.gallery2 img {
+        width: 100%;
+        height: 175px;
+      }
+
+      
+
+
+
+      div.gallery3 {
+        margin: 5px;
+        
+        float: left;
+        
+        text-align: right;
+      }
+      
+      
+      
+      div.gallery3 img {
+        width: 125%;
+        height: 90px;
+      }
+
+
+
+      div.gallery4 {
+        margin: 5px;
+        
+        float: left;
+        
+        text-align: right;
+      }
+      
+      
+      
+      div.gallery4 img {
+        width: 125%;
+        height: 90px;
+      }
+
+
+
+      div.a {
+        position: relative;
+        
+        left: 150px;
+        
+      }
